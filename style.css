@@ -127,3 +127,9 @@ footer p{margin:6px 0}
 .final .less{margin:14px auto 0;color:var(--green);font-weight:700;font-size:18px}
 .v{font-size:9px;color:#1c242e;margin-top:28px;letter-spacing:.1em}
 .further{margin-top:36px}.further details{max-width:none;margin:0}.further ol{margin:10px 0 0;padding-left:22px}.further li{margin:6px 0}
+/* Brighter fold-outs: easy to spot, still calm */
+.final details{border:1px solid var(--gold);background:rgba(246,199,68,.06)}
+.final summary{color:var(--gold);font-weight:700}
+.further details{border:1px solid var(--green);background:rgba(111,211,160,.06)}
+.further summary{color:var(--green);font-weight:700}
+.final summary:hover,.further summary:hover{color:var(--ink)}
