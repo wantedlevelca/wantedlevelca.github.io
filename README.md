@@ -10,7 +10,11 @@ A free guide that teaches kids online privacy through the wanted level from game
 
 ## What this site doesn't do
 
-No tracking. No ads. No cookies. No accounts. No scripts, so the page can't run any code on your device. The tick boxes are plain checkboxes: nothing you tick leaves your screen, and it all disappears when you close the page.
+We don't track you: no ads, no cookies, no accounts, no scripts, so the page can't run any code on your device. The tick boxes are plain checkboxes: nothing you tick leaves your screen, and it all disappears when you close the page.
+
+**Honest about hosting:** the site is hosted on GitHub Pages. Like every website host, GitHub (owned by Microsoft) keeps basic visit logs (such as IP addresses). We never see them and we build no file on anyone.
+
+**Honest about limits:** this lowers a kid's trail online. It doesn't erase it.
 
 ## Don't trust us. Check us.
 
@@ -30,4 +34,4 @@ Made for free. We take no money. If it helped, give to [Kids Help Phone](https:/
 
 # Niveau de recherche (français)
 
-Un guide gratuit qui enseigne la vie privée en ligne aux jeunes avec le niveau de recherche des jeux comme GTA, et un côté parents pour configurer le téléphone ensemble. Aucun pistage, aucune pub, aucun script. Une erreur? wantedlevelca@proton.me. Jeunes : texte PARLER au 686868.
+Un guide gratuit qui enseigne la vie privée en ligne aux jeunes avec le niveau de recherche des jeux comme GTA, et un côté parents pour configurer le téléphone ensemble. On ne vous suit pas : aucune pub, aucun script. Notre hébergeur, GitHub (propriété de Microsoft), garde des journaux de visites de base; on ne les voit jamais. Une erreur? wantedlevelca@proton.me. Jeunes : texte PARLER au 686868.
