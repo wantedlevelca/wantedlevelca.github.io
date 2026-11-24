@@ -123,3 +123,6 @@ footer p{margin:6px 0}
 @media(min-width:601px){h1{font-size:44px}.starbar .stars svg{width:38px;height:38px;margin:0 5px}.starbar{padding:10px 20px}.final .slap{font-size:36px}}
 @media(max-width:600px){.body{padding-left:0}.m,.card>header,.why,.tally,.box2{padding-left:16px;padding-right:16px}}
 @media(prefers-reduced-motion:reduce){.stars svg{animation:none}*{transition:none!important}}
+
+.final .less{margin:14px auto 0;color:var(--green);font-weight:700;font-size:18px}
+.v{font-size:9px;color:#1c242e;margin-top:28px;letter-spacing:.1em}
