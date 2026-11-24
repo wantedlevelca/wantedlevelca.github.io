@@ -2,6 +2,8 @@
 
 *Your wanted level online is always five stars. You just can't see it.*
 
+**Keep kids safe, not on file.**
+
 A free guide that teaches kids online privacy through the wanted level from games like GTA, with a parent side for setting up the phone together. In English and French.
 
 **Live site:** https://wantedlevelca.github.io
