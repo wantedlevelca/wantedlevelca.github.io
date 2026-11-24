@@ -28,8 +28,14 @@ a{color:var(--gold)}
 .stars{display:flex;justify-content:center;margin:22px 0 10px}
 .stars svg{width:46px;height:46px;fill:var(--gold);filter:drop-shadow(0 0 10px rgba(246,199,68,.55));margin:0 6px;transition:fill .5s,filter .5s,transform .5s;animation:flash 1.1s step-end infinite}
 @keyframes flash{50%{opacity:.45}}
-#m1:checked~.hud .s1,#m2:checked~.hud .s2,#m3:checked~.hud .s3,#m4:checked~.hud .s4,#m5:checked~.hud .s5{fill:var(--dim);filter:none;animation:none;transform:scale(.9)}
+#m1:checked~.starbar .s1,#m2:checked~.starbar .s2,#m3:checked~.starbar .s3,#m4:checked~.starbar .s4,#m5:checked~.starbar .s5{fill:var(--dim);filter:none;animation:none;transform:scale(.9)}
 .wl{color:var(--gold);font-weight:700}
+/* Sticky stars: the star bar stays pinned to the top while you scroll the missions.
+   position:sticky is plain CSS; on very old browsers the bar just scrolls away like normal. */
+.hud-top{padding-top:12px}
+.starbar{position:-webkit-sticky;position:sticky;top:0;z-index:5;margin:0 -16px;padding:10px 16px;background:#0e1319;background:rgba(14,19,25,.94);border-bottom:1px solid transparent}
+.starbar .stars{margin:0}
+.hud-top+.starbar+.hud{padding-top:0}
 h1{font-size:36px;line-height:1.12;margin:26px auto 14px;max-width:24ch}
 .lede{color:var(--mute);max-width:52ch;margin:0 auto 20px}
 .side-link{margin:0 0 36px;font-size:15px}
