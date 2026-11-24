@@ -157,3 +157,19 @@ footer p{margin:6px 0}
 @keyframes fall{0%{opacity:0;transform:translateY(0) rotate(0)}10%{opacity:1}100%{opacity:0;transform:translateY(420px) rotate(320deg)}}
 @media(min-width:601px){.win h2{font-size:60px}}
 @media(prefers-reduced-motion:reduce){.confetti{display:none}}
+
+/* Bigger text on phones */
+@media(max-width:600px){
+  body{font-size:18px;line-height:1.6}
+  .lede{font-size:18px}
+  .title{font-size:22px}
+  .tag{font-size:13px}
+  .why,.mute,.tally,.khp p,.quiet p,.quiet li,.cmp{font-size:16px}
+  .rule{font-size:15px}
+  .path{font-size:15px}
+  footer{font-size:15px}
+  .starbar .paused,.starbar .wl{font-size:11px}
+  .bar-l a,.bar-r a{font-size:14px}
+  .deal ol li,.say{font-size:19px}
+  summary{font-size:17px}
+}
